@@ -5,8 +5,7 @@
 This project aims to create a bash-based Command-Line Interface (CLI) tool for efficiently uploading files to various cloud storage solutions. Designed for simplicity and ease of use, it allows users to quickly transfer files to their preferred cloud storage, such as AWS S3, Google Cloud Storage, or Azure Blob Storage. While this demonstration focuses on AWS S3, the methods are applicable to any cloud storage service.This is a project from [learntocloud.guide](https://learntocloud.guide/) authored by @madebygps
 
 ## Prerequisites
-
-. Basic understanding of Linux commands.
+Basic understanding of Linux commands.
 . Familiarity with Bash scripting. For beginners, refer to my previous article.
 . Knowledge of a text editor (Nano, Vi, Vim, etc.). This guide uses Vim.
 . A terminal running Bash.
