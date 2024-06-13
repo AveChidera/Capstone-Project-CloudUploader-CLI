@@ -75,7 +75,7 @@ __Success and Error Reporting:__ Provides clear feedback on the upload process's
 Run the script with the file and bucket name as arguments:
 
 ```bash
-./clouduploader.sh bucket-policy.json cloud-uploader-bucket-name14012024
+./clouduploader.sh bucket-policy.json cloud-uploader-bucket-name2
 ```
 
 + To verify the upload:
