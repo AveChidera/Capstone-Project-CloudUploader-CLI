@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 
 # Author: Ikeogu Chidera
