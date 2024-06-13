@@ -35,13 +35,13 @@ aws s3 ls
  + Create S3 Bucket:
 
 ```bash
-aws s3 mb s3://cloud-uploader-bucket-name14012024
+aws s3 mb s3://cloud-uploader-bucket-name2
 ```
 
  + Create Bucket Policy with bucket-policy.json:
 
 ```bash
- aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name14012024 --policy file://bucket-policy.json
+ aws s3api put-bucket-policy --bucket cloud-uploader-bucket-name2 --policy file://bucket-policy.json
 ```
 
  ## Create the Script File with Executable Permissions
@@ -81,7 +81,7 @@ Run the script with the file and bucket name as arguments:
 + To verify the upload:
 
    ```bash
-   aws s3 ls s3://cloud-uploader-bucket-name14012024/
+   aws s3 ls s3://cloud-uploader-bucket-name2/
    ```
   
 ## Installation
